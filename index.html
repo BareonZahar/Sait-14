@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Calculator</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="DZ12.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <link rel="stylesheet" href="DZ12.css" >
+</head>
+<body>
+      <div id="zadagha1">
+         <p>Какое расстояние между Краснодаром и Москвой
+             и За сколько часов вы бы хотели добраться?</p>
+          <label>Расстояние км</label>
+          <input id="rastoynie" type="number" aria-labelledby="temperature low">
+          <input id="time" type="number" aria-labelledby="temperature high">
+          <label>Время в часах</label>
+           <p>Значит ваша скорость-</p>
+           <h3 id="brut"></h3>
+          <button id="scor" type="submit">Ответ</button>
+           <button id="tuk" type="reset">Заново</button>
+
+      </div>
+      <div id="zadagha2">
+          <p class="wer">Сколько можно купить шоколада и сколько останеться денег.</p>
+         <label>У меня  столько денег (рублей)</label>
+          <input id="mani" type="number" aria-labelledby="temperature low">
+          <input id="cena" type="number" aria-labelledby="temperature high">
+           <label>Цена одной шоколатки</label>
+           <br>
+          <br>
+           <button id="shtuk" type="submit">Ответ</button>
+           <button id="tyk" type="reset">Заново</button>
+          <h3 id="bryt"></h3>
+      </div>
+      <div id="zadagha3">
+
+           <p class="par">EUR: 90,2<span id="eur"></span></p>
+           <strong>Курс валют</strong>
+           <p class="par" >USD: 84,4<span id="usd"></span></p>
+     <hr>
+<div id="fer">
+    <p class="par"> В долларах: <span id="rub1"></span></p>
+    <p class="par">Евро: <input id="eput1" type="number" aria-labelledby="temperature low"> <button id="euro" type="submit">OK</button>
+    <button id="wer" type="reset">Обнулить</button></p>
+    <p class="par">В евро: <span id="rub2"></span></p>
+    <p class="par">Доллар: <input id="sput2" type="number" aria-labelledby="temperature high"><button id="usdo" type="submit">OK</button>
+        <button id="typ" type="reset">Обнулить</button></p>
+</div>
+     </div>
+</body>
+</html>
